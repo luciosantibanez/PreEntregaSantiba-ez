@@ -5,7 +5,7 @@ export const NavBar = () => {
     <nav class="navbar navbar-expand-lg bg-dark justify-content-center ">
       
       <div class="">
-        <a class="navbar-brand text-light fs-2" href="#"><img src="" ></img></a>
+        <h2 class="navbar-brand text-light fs-2 justify-content-center" href="#">ERGOTECH</h2>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
