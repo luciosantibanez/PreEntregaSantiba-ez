@@ -11,17 +11,15 @@ export const NavBar = () => {
 
           <ul class="nav fs-4">
             <li class="nav-item">
-              <a class="nav-link text-light" aria-current="page" href="#">Active</a>
+              <a class="nav-link text-light" aria-current="page" href="#">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Link</a>
+              <a class="nav-link text-light" href="#">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Link</a>
+              <a class="nav-link text-light " href="#">Contactos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light">Comunicate</a>
-            </li>
+            
           </ul>
         </div>
       </div>
