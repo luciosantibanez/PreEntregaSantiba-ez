@@ -1,33 +1,32 @@
 import React from "react";
 import CartWidget from "../CardWidget/CartWidget";
 import { Link } from "react-router-dom";
+import "./NavBar.css"
+// import ImgLogo from "./src/assets/icons8-desk-64.png"
 
 
 
 function Navbar() {
   return (
-    <nav className="navbar bg-primary navbar-expand-lg  ">
-  <div classNameName="container-fluid">
-    <a className="navbar-brand" href="#">Ergo Tech</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li >
-          <Link to='/'>Home</Link>
-        </li>
-        <li >
-          <Link to='/about'></Link>
-        </li>
-        <li >
-          <Link to='/contact'><CartWidget/></Link>
-        </li>
-      </ul>
-    </div>
-  </div>
-  
-</nav>
+    <>
+    <div className="header">
+        <div className="container">
+          <div className="logo">
+            <h2>Ergo<span>Tech</span></h2>
+            {/* <img src={ImgLogo}></img> */}
+            
+          </div>
+
+          <nav className="links">
+            <ul>
+              <li><Link to="/" >Nosotros</Link></li>
+              <li><Link to="/productos">Productos</Link></li>
+              <li><Link to="/nosotros">Mas info</Link></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,44 @@
+
+
+.header{
+    background-color: black;
+  
+  }
+
+  .logo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 26px;
+    display: flex;
+    
+  }
+
+  h2 span{
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 80px;
+    
+  
+  }
+
+  ul{
+    display: flex;
+    margin-left: 20px;
+  
+  }
+  a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ccc;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 40px;
+  }
