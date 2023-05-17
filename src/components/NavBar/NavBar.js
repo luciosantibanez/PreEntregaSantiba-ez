@@ -12,15 +12,15 @@ function Navbar() {
     <div className="header">
         <div className="container">
           <div className="logo">
-            <h2>Ergo<span>Tech</span></h2>
+            <Link to="/home" ><h2>Ergo<span>Tech</span></h2></Link>
             {/* <img src={ImgLogo}></img> */}
             
           </div>
 
           <nav className="links">
             <ul>
-              <li><Link to="/" >Nosotros</Link></li>
-              <li><Link to="/productos">Productos</Link></li>
+              <li><Link to="/" >Catalogo</Link></li>
+              <li><Link to="/catalogo">Nosotros</Link></li>
               <li><Link to="/nosotros">Mas info</Link></li>
             </ul>
           </nav>

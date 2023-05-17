@@ -1,25 +1,23 @@
-// import React from "react";
+import React from "react";
+import Esc from "../assets/escritorioClaro.png"
+import "../Item/Items.css"
+import { Link } from "react-router-dom";
 
 
-// const ItemList = () => [
-//     {
-//         id: 1,
-//         name: "Item 1",
-//         description: "This is the first item",
-//         price: 10.99
-//     },
-//     {
-//         id: 2,
-//         name: "Item 2",
-//         description: "This is the second item",
-//         price: 19.99
-//     },
-//     {
-//         id: 3,
-//         name: "Item 3",
-//         description: "This is the third item",
-//         price: 5.99
-//     }
-//     ];
 
-// export default ItemList;
+
+
+function Items() {
+return (
+    <div className="item">
+        <span className="tituloItem">Escritorio Clare</span>
+        <img className="imgItem" src={Esc} />
+        <span className="precioItem">$15.000</span>
+        <Link to={`/items/${id}`} className="btnItem">Agregar al Carrito</Link>
+    </div>
+)
+}
+
+
+
+export default Items;

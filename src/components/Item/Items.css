@@ -1,0 +1,16 @@
+.imgItem{
+    width: 100%;
+}
+
+.item:hover{
+    box-shadow: 0 0 10px #00000031;
+    scale: 1.05;
+}
+.item{
+    max-width: 200px;
+    margin: auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}

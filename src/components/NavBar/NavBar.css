@@ -5,12 +5,16 @@
   
   }
 
-  .logo{
+  .logo h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
-    font-size: 26px;
-    display: flex;
+    color:rgba(255, 255, 255, 0.583);
+    font-size: 38px;
+    margin-top: 0;
     
+  }
+
+  .logo span{
+    color: rgba(1, 249, 236, 0.41);
   }
 
   h2 span{
@@ -24,7 +28,8 @@
     justify-content: space-between;
     align-items: center;
     
-    height: 80px;
+    
+    min-height: 80px;
     
   
   }
@@ -38,7 +43,7 @@
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#ccc;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 100;
     margin-left: 40px;
   }

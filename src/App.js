@@ -5,8 +5,6 @@ import ItemCount from "./components/ItemCount/ItemCount";
 import ItemList from './components/Item/Items';
 import { Link, Routes } from 'react-router-dom';
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -15,15 +13,10 @@ function App() {
       <div><NavBar/></div>
 
       <Routes>
-        <Route path='/' exact element={<Home/>}>
-        
-        </Route>
-        <Route path='/productos' exact>
-          
-        </Route>
-        <Route path='/nosotros' exact>
-          
-        </Route>
+        <Route path='/home' exact element={<Home/>}/>
+        <Route path='/' exact element={<ItemListContainer/>}/>
+        <Route path='/item/:itemId' exact element={<ItemListContainer/>}/>
+        <Route path='*' element={<h1>NOT FOUND</h1>}/>
       </Routes>
     
     </Router>
